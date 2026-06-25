@@ -1,0 +1,27 @@
+# --- Scraped data: contains personal info (names, emails, phone numbers) ---
+# Keep this out of version control. If you ever want to share the data itself,
+# do it deliberately (e.g. a private repo, or a deliberately anonymized export)
+# rather than by accident through a normal commit.
+coaches_keys.csv
+coaches_full.csv
+coaches_failed.csv
+coaches_full.jsonl
+
+# --- Logs ---
+scrape.log
+*.log
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
